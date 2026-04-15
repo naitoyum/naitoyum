@@ -1,4 +1,17 @@
-## Hi there 👋
+## Hi, I'm Naito 💫
+
+- 💻 student
+- 🌱 Currently learning: programming
+- 📫 Reach me: [2570849@johnabbottcollege.net](mailto:2570849@johnabbottcollege.net) / [LinkedIn]
+  (https://www.linkedin.com/in/YOUR_PROFILE_LINK) <!--TODO-->
+
+## ⚙ My Tech Stack
+
+C#
+
+## 🛠 My Favorite Tools
+
+Visual Studio
 
 <!--
 **naitoyum/naitoyum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

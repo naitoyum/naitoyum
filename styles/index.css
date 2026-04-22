@@ -1,18 +1,24 @@
 h1 {
+  margin: 1rem 10vw;
   text-align: center;
 }
 
 .container {
-  gap: 2rem;
-  padding: 0 10vw;
+  gap: 4rem 2rem;
+  margin: 0 10vw;
   max-width: 80vw;
   display: grid;
   justify-items: center;
+  justify-content: center;
 }
 
-article {
-  max-width: 100%;
+.project {
   text-align: center;
+}
+
+img {
+  padding-bottom: 0.5rem;
+  max-width: 100%;
 }
 
 /* TABLET DESIGN */

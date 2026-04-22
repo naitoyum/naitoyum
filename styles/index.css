@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  gap: 2rem;
+  padding: 0 10vw;
+  max-width: 80vw;
+  display: grid;
+  justify-items: center;
+}
+
+article {
+  max-width: 100%;
+  text-align: center;
+}
+
+/* TABLET DESIGN */
+@media only screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  article {
+    max-width: 40vw;
+  }
+}
+
+/* DESKTOP DESIGN */
+@media only screen and (min-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  article {
+    max-width: 30vw;
+  }
+}

@@ -8,8 +8,6 @@ h1 {
   margin: 0 10vw;
   max-width: 80vw;
   display: grid;
-  justify-items: center;
-  justify-content: center;
 }
 
 .project {

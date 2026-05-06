@@ -1,40 +1,43 @@
-h1 {
-  margin: 1rem 10vw;
-  text-align: center;
+.container {
+  margin: 1.5rem 3rem;
+
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
 
-.container {
-  gap: 4rem 2rem;
-  margin: 0 10vw;
-  max-width: 80vw;
+h1 {
+  text-align: center;
+
+  margin: 0;
+  padding: 1rem;
+}
+
+.projectsSection {
   display: grid;
+  gap: 2rem 2rem;
+
+  padding: 0 2rem;
 }
 
 .project {
   text-align: center;
 }
 
-img {
+.projectImage {
   margin-bottom: 0.5rem;
   max-width: 100%;
 }
 
 /* TABLET DESIGN */
 @media only screen and (min-width: 600px) {
-  .container {
+  .projectsSection {
     grid-template-columns: 1fr 1fr;
-  }
-  article {
-    max-width: 40vw;
   }
 }
 
 /* DESKTOP DESIGN */
 @media only screen and (min-width: 992px) {
-  .container {
+  .projectsSection {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  article {
-    max-width: 30vw;
   }
 }

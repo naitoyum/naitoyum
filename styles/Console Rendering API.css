@@ -25,6 +25,11 @@ main {
   border-radius: 10px;
 }
 
+h1,
+p {
+  color: #303030;
+}
+
 h1 {
   margin: 0;
 

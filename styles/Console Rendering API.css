@@ -1,9 +1,12 @@
 body {
   margin: 0;
+
   background-color: #f0f0f0;
 }
+
 header {
   margin: 1rem 2rem;
+
   display: flex;
   justify-content: space-between;
 }
@@ -17,6 +20,7 @@ header {
 main {
   margin-bottom: 1.5rem;
   padding: 1rem 3rem;
+
   background-color: white;
   border-radius: 10px;
 }
@@ -32,9 +36,11 @@ p {
 }
 
 .imageContainer {
-  text-align: center;
   margin: 1rem;
+
+  text-align: center;
 }
+
 .projectImage {
   max-width: 100%;
 }

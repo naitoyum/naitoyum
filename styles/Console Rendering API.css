@@ -2,52 +2,54 @@ body {
   margin: 0;
   background-color: #f0f0f0;
 }
+
 header {
   margin: 1rem 2rem;
   display: flex;
   justify-content: space-between;
 }
+
 main {
   margin-bottom: 1.5rem;
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
   background-color: white;
   border-radius: 10px;
 }
 
 h1 {
-  text-align: center;
-
   margin: 0;
-  padding-bottom: 2rem;
+
+  text-align: center;
 }
 
 p {
   padding-bottom: 1rem;
 }
 
-.project {
+.imageContainer {
   text-align: center;
+  margin: 1rem;
 }
-
 .projectImage {
-  margin-bottom: 0.5rem;
   max-width: 100%;
 }
-
 /* TABLET DESIGN */
 @media only screen and (min-width: 600px) {
-  .projectsSection {
-    grid-template-columns: 1fr 1fr;
+  main {
+    padding-top: 2rem;
+  }
+  .imageContainer {
+    margin: 2.5rem;
   }
 }
 
 /* DESKTOP DESIGN */
 @media only screen and (min-width: 992px) {
+  .imageContainer {
+    margin: 5rem;
+  }
   main {
     margin-left: 15vw;
     margin-right: 15vw;
-  }
-  .projectsSection {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }

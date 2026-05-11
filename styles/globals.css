@@ -2,7 +2,9 @@
   font-family: "Open Sans";
   src: url(../assets/fonts/Open_Sans/static/OpenSans-Medium.ttf);
 }
-
+.navigationLink {
+  font-size: 0.9rem;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }

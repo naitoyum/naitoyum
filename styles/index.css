@@ -1,0 +1,54 @@
+body {
+  background-color: #f0f0f0;
+}
+.container {
+  margin: 1.5rem 0.5rem;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+
+  margin: 0;
+}
+
+h1 {
+  padding: 0.5rem;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.projectsSection {
+  display: grid;
+  gap: 2rem 2rem;
+
+  padding: 0 2rem;
+}
+
+.project {
+  text-align: center;
+}
+
+.projectImage {
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+}
+
+/* TABLET DESIGN */
+@media only screen and (min-width: 600px) {
+  .projectsSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* DESKTOP DESIGN */
+@media only screen and (min-width: 992px) {
+  .projectsSection {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

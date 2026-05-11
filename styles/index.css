@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+
   background-color: #f0f0f0;
 }
 a {
@@ -6,8 +8,8 @@ a {
   color: #303030;
 }
 .container {
-  margin: 1.5rem 0.5rem;
-
+  margin: 1.5rem 0rem;
+  padding: 2rem;
   background-color: white;
   border-radius: 10px;
 }
@@ -20,7 +22,7 @@ p {
 }
 
 h1 {
-  padding: 0.5rem;
+  padding-bottom: 0.5rem;
 
   color: #303030;
 }
@@ -35,7 +37,7 @@ p {
   display: grid;
   gap: 2rem 2rem;
 
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .project {
@@ -53,11 +55,20 @@ p {
   .projectsSection {
     grid-template-columns: 1fr 1fr;
   }
+  .container {
+    padding-top: 2rem;
+  }
 }
 
 /* DESKTOP DESIGN */
 @media only screen and (min-width: 992px) {
   .projectsSection {
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 }

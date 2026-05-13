@@ -6,19 +6,9 @@ body {
 
 header {
   margin: 1rem 2rem;
+
   display: flex;
-
   justify-content: space-between;
-}
-
-li {
-  list-style-type: none;
-}
-
-.navigationLink {
-  border-radius: 4px;
-  border: 0;
-  color: darkblue;
 }
 
 main {
@@ -44,6 +34,10 @@ p {
   padding-bottom: 1rem;
 }
 
+li {
+  list-style-type: none;
+}
+
 .imageContainer {
   margin: 1rem;
 
@@ -52,6 +46,12 @@ p {
 
 .projectImage {
   max-width: 100%;
+}
+
+.navigationLink {
+  border-radius: 4px;
+  border: 0;
+  color: darkblue;
 }
 
 .navigationLink:hover,

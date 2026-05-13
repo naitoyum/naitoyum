@@ -11,12 +11,6 @@ header {
   justify-content: space-between;
 }
 
-.navigationLink {
-  border-radius: 4px;
-  border: 0;
-  color: darkblue;
-}
-
 main {
   margin-bottom: 1.5rem;
   padding: 1rem 3rem;
@@ -48,6 +42,12 @@ p {
 
 .projectImage {
   max-width: 100%;
+}
+
+.navigationLink {
+  border-radius: 4px;
+  border: 0;
+  color: darkblue;
 }
 
 .navigationLink:hover,

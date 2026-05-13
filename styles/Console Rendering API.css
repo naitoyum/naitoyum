@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+
+  background-color: #d6d6d6;
+}
+
+header {
+  margin: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1,
+p {
+  color: #303030;
+}
+
+h1 {
+  margin: 0 1rem;
+
+  text-align: center;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.wallOfText {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.imageContainer {
+  margin: 1rem;
+
+  text-align: center;
+}
+
+.projectImage {
+  max-width: 100%;
+}
+
+.navigationLink {
+  border-radius: 4px;
+  border: 0;
+  color: darkblue;
+}
+
+.navigationLink:hover,
+.navigationLink:active {
+  background-color: lightgray;
+}
+
+.navigationLink:active {
+  color: crimson;
+}
+
+/* TABLET DESIGN */
+@media only screen and (min-width: 600px) {
+  header {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  main {
+    padding-top: 2rem;
+  }
+  .imageContainer {
+    margin: 2.5rem;
+  }
+}
+
+/* DESKTOP DESIGN */
+@media only screen and (min-width: 992px) {
+  header {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+  main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  .imageContainer {
+    margin: 5rem;
+  }
+}

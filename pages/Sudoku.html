@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/globals.css" />
+    <link rel="stylesheet" href="../styles/Sudoku.css" />
+    <title>Sudoku</title>
+  </head>
+  <body>
+    <header>
+      <a class="navigationLink" href="./Console Rendering API.html">❮</a>
+      <a class="navigationLink" href="../index.html">Home</a>
+      <a class="navigationLink">❯</a>
+    </header>
+    <main>
+      <h1>Sudoku</h1>
+      <section class="wallOfText">
+        <div class="imageContainer">
+          <img
+            class="projectImage"
+            alt="Image of Sudoku Program in action"
+            src="../assets/images/project2-960.png"
+          />
+        </div>
+        <p>This was made for an assignment. It's a working Sudoku app!</p>
+        <p>
+          This program can generate 4x4 and 9x9 boards. The catch is, it does
+          not generate the best boards.
+          <br />
+          <br />
+          For context: in Sudoku, boards do not have more than one possible
+          solution. Otherwise, it's bad. Also, it's generally better to have
+          less numbers on the board (while making sure the solution remains
+          unique).
+          <br />
+          <br />
+          Alas, this program does not follow those criterias. It generates a
+          complete board, and randomly removes half of the numbers from the
+          board.
+          <br />
+          <br />
+          In ChatGPT terms:
+        </p>
+
+        <ul>
+          <li>❌ Unique board</li>
+          <li>❌ Minimized clues</li>
+          <li>✅ Sucks</li>
+        </ul>
+        <p>
+          <br />
+          It's okay though. It partially does what Sudoku does, and normal
+          people won't know that it's bad... If we ignore the aesthetics.
+          Anyway, I added quality-of-life features, so they can't complain.
+          <br />
+          <br />
+          In Sudoku, you cannot overwrite a number that was already there. It'd
+          be cheating. There is no easy way to show which cell is locked. Well
+          actually, there is, but I did not know it at the time. But anyways, my
+          solution was to create a secondary board with the locked cells. I had
+          to modify a few stuff and it may or may not have been a pain, but it
+          works.
+          <br />
+          <br />
+          Overall, it was a fun project, but I don't like Sudoku that much so I
+          will probably never touch this ever again.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

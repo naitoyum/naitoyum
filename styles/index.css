@@ -1,9 +1,12 @@
 body {
-  background-color: #f0f0f0;
-}
-.container {
-  margin: 1.5rem 0.5rem;
+  margin: 0;
 
+  background-color: #d6d6d6;
+}
+
+main {
+  margin: 1.5rem 0rem;
+  padding: 2rem;
   background-color: white;
   border-radius: 10px;
 }
@@ -16,18 +19,27 @@ p {
 }
 
 h1 {
-  padding: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  color: #303030;
 }
 
 p {
   padding-bottom: 1rem;
+
+  color: cornflowerblue;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #303030;
 }
 
 .projectsSection {
   display: grid;
   gap: 2rem 2rem;
 
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .project {
@@ -36,6 +48,7 @@ p {
 
 .projectImage {
   margin-bottom: 0.5rem;
+
   max-width: 100%;
 }
 
@@ -44,11 +57,20 @@ p {
   .projectsSection {
     grid-template-columns: 1fr 1fr;
   }
+  .container {
+    padding-top: 2rem;
+  }
 }
 
 /* DESKTOP DESIGN */
 @media only screen and (min-width: 992px) {
   .projectsSection {
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 }

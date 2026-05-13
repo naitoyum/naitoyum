@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/globals.css" />
+    <link rel="stylesheet" href="../styles/Console Rendering API.css" />
+    <title>Console Rendering API</title>
+  </head>
+  <body>
+    <header>
+      <a class="navigationLink">❮</a>
+      <a class="navigationLink" href="../index.html">Home</a>
+      <a class="navigationLink" href="./Sudoku.html">❯</a>
+    </header>
+    <main>
+      <h1>Console Rendering API</h1>
+      <section class="wallOfText">
+        <div class="imageContainer">
+          <img
+            class="projectImage"
+            alt="Image of Console Rendering API in action"
+            src="../assets/images/project1-1920.png"
+          />
+        </div>
+        <p>
+          I tried to make this API that lets me draw pixels to the console. I
+          wanted to make a game.
+        </p>
+        <p>
+          Unfortunately, it is a horrendous mess that combines two ideas that
+          are incompatible:
+        </p>
+        <ol>
+          <li>Console Rendering</li>
+          <li>Dithering</li>
+        </ol>
+        <p>
+          <br />
+          In short, consoles only change colours when they change. What this
+          means is that, instead of having a colour for each character, it has
+          uses the same colour as the previous character until it differs.
+          <br />
+          <br />
+          This also means that it is bad at continously changing colours.
+          Horizontal stripes are quick, but vertical stripes aren't.
+          <br />
+          <br />
+          A 480p display takes 40 milliseconds to render when paired with
+          dithering. Unfortunately, that means that the fastest it can smoothly
+          display at is less than 25fps.
+          <br />
+          <br />
+          Now, you may be wondering: Why dither in the first place?
+          <br />
+          <br />
+          Well, the fastest way to print to the console is to use a Windows
+          exclusive function. That function only lets us use 16 colours, but it
+          is much faster than the good old Console.Write().
+          <br />
+          <br />
+          On the bright side, DOOM should be able to run at its intended 320x200
+          @35Hz. We'll see once I properly manage the structure of my classes.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

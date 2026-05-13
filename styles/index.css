@@ -3,11 +3,8 @@ body {
 
   background-color: #d6d6d6;
 }
-a {
-  text-decoration: none;
-  color: #303030;
-}
-.container {
+
+main {
   margin: 1.5rem 0rem;
   padding: 2rem;
   background-color: white;
@@ -31,6 +28,11 @@ p {
   padding-bottom: 1rem;
 
   color: cornflowerblue;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #303030;
 }
 
 .projectsSection {
